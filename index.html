@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App - By Anwar</title>
+    <link rel="shortcut icon" href="./Cloud-img/favicon(2).png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <img id="pin" src="./Cloud-img/pin (1).png" alt="">
+        <input
+          class="inp"
+          type="text"
+          placeholder="enter city name"
+          spellcheck="false"
+        />
+        <button><img src="./Cloud-img/search.png" /></button>
+      </div>
+      <div class="error">
+        <img src="./Cloud-img/404.png" alt="">
+        <h3>Oops Invalid Location  :/</h3>
+      </div>
+
+      <div class="weather">
+        <img class="img" src="./Cloud-img/Rain.png" alt="" />
+        <h2>22&deg;c</h2>
+        <h3>Berlin</h3>
+        <div class="wind">
+          <div class="humidity">
+            <img src="./Cloud-img/humidity.png" alt="" />
+            <div class="details">
+              <p class="wind-details">90%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="wind-speed">
+            <img src="./Cloud-img/wind.png" alt="" />
+            <div class="details">
+              <p class="wind-details">2.68 km/h</p>
+              <p>wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
