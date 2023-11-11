@@ -22,4 +22,4 @@ Cloud-Point is a weather app built using JavaScript that provides real-time weat
 
 ## Screenshots
 
-![Weather App Screenshot](Cloud-img/screenshot.png)
+![Weather App Screenshot](Cloud-img/Screenshot.png)
